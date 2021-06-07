@@ -119,5 +119,5 @@ class Visualisation(object):
 		self.push_vid.release() # Released the video from the memory
 		cv2.destroyAllWindows()
 
-
+ 
 box = MyOVBox()
