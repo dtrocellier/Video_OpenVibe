@@ -1,7 +1,9 @@
 import cv2
 import time
+import os
 
 
+print(" version",cv2.__version__)
 class MyOVBox(OVBox):
 	def __init__(self):
 		OVBox.__init__(self)
@@ -78,7 +80,8 @@ class Visualisation(object):
 	def __init__(self):
 
 		# Import the image and video in the memory
-		self.path = "C:/Users/david/Documents/1-STAGE/Programation/OpenVibe/example/media/"
+		print(os.path.dirname(os.path.abspath(__file__)))
+		self.path = os.path.dirname(os.path.abspath(__file__))+"/"
 		self.cross_im = cv2.imread(self.path+"cross.png")
 		self.black_im = cv2.imread(self.path+"black_screen.png") 
 		self.push_vid = cv2.VideoCapture(self.path + "push_vid.mp4")
@@ -119,5 +122,5 @@ class Visualisation(object):
 		self.push_vid.release() # Released the video from the memory
 		cv2.destroyAllWindows()
 
- 
+
 box = MyOVBox()

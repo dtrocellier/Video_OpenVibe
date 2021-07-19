@@ -44,6 +44,8 @@ function process(box)
 
 	end
 
+
+
 	t = t+ cross_duration
 
 	-- used to cause the acquisition scenario to stop

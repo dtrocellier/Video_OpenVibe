@@ -14,7 +14,6 @@
 				<Input>
 					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
 					<Name>Stimulations</Name>
-					
 				</Input>
 			</Inputs>
 			<Settings>
@@ -86,7 +85,7 @@
 					<TypeIdentifier>(0xb0d0db45, 0x49cbc34a)</TypeIdentifier>
 					<Name>Script</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/david/Documents/1-STAGE/Programation/OpenVibe/Git hub submit/Protocole.py</Value>
+					<Value> ${Player_ScenarioDirectory}/Protocole.py </Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
@@ -148,7 +147,7 @@
 					<TypeIdentifier>(0xb0d0db45, 0x49cbc34a)</TypeIdentifier>
 					<Name>Lua Script</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/david/Documents/1-STAGE/Programation/OpenVibe/Git hub submit/scenario.lua</Value>
+					<Value> ${Player_ScenarioDirectory}/scenario.lua</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
