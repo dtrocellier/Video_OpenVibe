@@ -5,7 +5,7 @@ My code alow to display video with OpenVibe with the OpenCV library
 - Python 3.7.8 (only version of python that is allowed by OpenVibe)
 - OpenCV 4.5.1 (with > *pip install opencv-python* and > *pip install opencv-contrib-python*)
 
-You also need to change the path of the file in:
+You also need to **change the path** of the file in:
 
 - On Protocole.py line 81
 
